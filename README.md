@@ -1,4 +1,4 @@
-# AI Job Hunt Copilot
+# AI Job Hunt
 
 Production-ready full-stack AI platform for optimizing job applications.
 
