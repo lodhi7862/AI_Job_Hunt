@@ -1,0 +1,60 @@
+# ---- Environment / Secrets ----
+.env
+.env.local
+.env.*.local
+**/.env
+**/.env.local
+**/.env.*.local
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+id_rsa
+id_ed25519
+
+# ---- Dependency directories ----
+node_modules/
+**/node_modules/
+.venv/
+venv/
+env/
+**/.venv/
+
+# ---- Build artifacts ----
+.next/
+**/.next/
+out/
+dist/
+build/
+coverage/
+htmlcov/
+*.tsbuildinfo
+
+# ---- Python caches ----
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.mypy_cache/
+
+# ---- Editor / OS ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# ---- Runtime / logs ----
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---- Docker / local data ----
+.docker/
+pg_data/
+*.sqlite
+*.db
